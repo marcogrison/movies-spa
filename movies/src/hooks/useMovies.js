@@ -19,7 +19,7 @@ export function useMovie(movieId) {
 
 	useEffect(() => {
 		getMovie(movieId).then(({ data }) => {
-			setMovie(data.results)
+			setMovie(data)
 		})
 
 	}, [movieId]);

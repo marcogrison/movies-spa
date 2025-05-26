@@ -1,0 +1,67 @@
+.appHeader {
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.headerContainer { /* Alterado de .app-header .header-container para ser uma classe própria */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.appTitle { /* Alterado de .app-header .app-title para ser uma classe própria */
+    margin: 0;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.appTitle a { /* 'a' dentro de .appTitle */
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.appTitle a:hover {
+    color: #ffffff;
+}
+
+.mainNav ul { /* 'ul' dentro de .mainNav (a classe .mainNav será aplicada ao <nav>) */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.mainNav li { /* 'li' dentro de .mainNav */
+    margin-left: 25px;
+}
+
+.mainNav li:first-child {
+    margin-left: 0;
+}
+
+.mainNav a { /* 'a' dentro de .mainNav */
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.05em;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mainNav a:hover {
+    background-color: #5a5a5a;
+    color: #ffffff;
+}

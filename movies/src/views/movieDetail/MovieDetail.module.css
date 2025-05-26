@@ -1,0 +1,31 @@
+/* src/views/movieDetail/MovieDetail.module.css */
+.movie {
+    background: white;
+    border-radius: 8px; /* Um pouco mais de arredondamento */
+    padding: 25px;     /* Um padding interno geral um pouco maior */
+    width: 800px;
+    max-width: 90%;    /* Garante que não quebre em telas menores */
+    margin: 40px auto; /* Adiciona 40px de margem no topo e embaixo, e mantém centralizado horizontalmente */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); /* Uma sombra mais pronunciada e suave */
+}
+
+.imageContainer {
+    text-align: center;  /* Mantém a imagem centralizada horizontalmente */
+    margin-top: 15px;    /* Adiciona um espaço acima da imagem, dentro do card */
+    margin-bottom: 25px; /* Adiciona um espaço abaixo da imagem, antes do título */
+}
+
+.movie h1 { 
+    text-align: center;
+    font-size: 2.2em;    /* Um pouco maior para o título do filme */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    color: #2c3e50;      /* Uma cor mais escura e elegante para o título */
+}
+
+.movie p { /* Estilizando o parágrafo da sinopse */
+    font-size: 1.1em;
+    line-height: 1.7;    /* Melhor legibilidade */
+    color: #34495e;      /* Cor para o texto da sinopse */
+    text-align: justify; /* Justificar o texto pode deixar mais elegante */
+    margin-top: 0;       /* Remove margem do topo se houver padrão */
+}
